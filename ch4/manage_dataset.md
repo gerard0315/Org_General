@@ -4,9 +4,9 @@
 * **创建项目**：创建一个挂载该数据集的K-Lab项目。
 
 * **编辑属性**：修改数据集信息。用户可以修改数据访问权限，对数据集的名称、短描述进行修改，编写数据集文档，并对csv类型的数据集文件做标注。
- ![image description](../image/dataset-management-edit.png)
+ ![image description](/image/dataset-management-edit.png)
 
 * **编辑文件**：用户可以该数据集下的文件做修改，如上传新文件、删除旧文件。
- ![image description](../image/dataset-file-edit.png)
+ ![image description](/image/dataset-file-edit.png)
 
 * **删除数据集**：删除该数据集。用户个人上传的数据集一经删除，无法找回。

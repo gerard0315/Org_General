@@ -2,7 +2,7 @@
 
 在**数据集**中可点击蓝色 `+` 进行数据集的创建。
 
-![image description](../image/dataset-create.png)
+![image description](/image/dataset-create.png)
 
 该功能分为两个步骤，数据集制作与数据集信息完善。
 ### 数据集制作

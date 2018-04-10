@@ -1,5 +1,5 @@
 # Code Cell
-Code Cell是Notebook的代码编写单元。用户在Code Cell内编写代码（目前K-Lab支持**Python2**、**Python3**和**R**等主流编程语言），代码由后端的Kernel运行，并返回结果到Code Cell。通过这样一个工作流，用户来**解决数据分析中如数据导入、模型搭建、数据可视化、参数调优等问题**。    
+Code Cell是Notebook的代码编写单元。用户在Code Cell内编写代码（目前K-Lab支持**Python2**、**Python3**和**R**等主流编程语言），代码由后端的Kernel运行，并返回结果到Code Cell。通过这样一个工作流，用户来**解决数据分析中如数据导入、模型搭建、数据可视化、参数调优等问题**。
 
 
 Code Cell有**编辑模式**和**命令模式**两种状态，状态可以相互切换：编辑模式下，按`Enter`键进入命令模式；命令模式下，按`Esc`键进入编辑模式。
