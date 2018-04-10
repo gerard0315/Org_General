@@ -6,6 +6,7 @@
     * [Code Cell](ch1/code_cell.md)
     * [Markdown Cell](ch1/markdown_cell.md)
     * [侧边栏](ch1/side_bar.md)
+    * [监控区](ch1/monitor.md)
 * [Kernel(计算环境)](ch2/chapter2.md)
     * [Kernel类型](ch2/kernel_type.md)
     * [Kernel内置工具包](ch2/kernel_pkg.md)
