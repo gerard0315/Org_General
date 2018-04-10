@@ -1,7 +1,7 @@
 # 命令模式
 
 当前cell显示灰色边框，并且左边有蓝条标识。
-![image description](../image/code-cell.png)
+![image description](/image/code-cell.png)
 * `X`：剪切选中cell
 * `Shift`+`J`    
   `Shift`+`ArrowDown`：向下选择cell
