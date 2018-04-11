@@ -555,16 +555,16 @@
 <ul>
 <li><p>Python3 Kernel</p>
 <pre><code>!pip list --format=columns  #&#x67E5;&#x770B;Kernel&#x4E0B;&#x6240;&#x6709;&#x9884;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x5305;
-</code></pre><pre><code>!pip show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
+!pip show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
 </code></pre></li>
 <li><p>Python2 Kernel    </p>
 <pre><code>!pip2 list --format=columns  #&#x67E5;&#x770B;Kernel&#x4E0B;&#x6240;&#x6709;&#x9884;&#x7F6E;&#x7684;&#x5DE5;&#x5177;&#x5305;
-</code></pre><pre><code>!pip2 show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
+!pip2 show package_name      #&#x67E5;&#x770B;Kernel&#x662F;&#x5426;&#x6709;&#x67D0;&#x4E2A;&#x5DE5;&#x5177;&#x5305;
 </code></pre></li>
 <li><p>R Kernel</p>
 <pre><code>pkgs &lt;- installed.packages();
 pkgs[is.na(pkgs[,&quot;Priority&quot;]), c(&quot;Package&quot;, &quot;Version&quot;)]
-</code></pre><pre><code>installed.packages(&apos;package name&apos;)
+installed.packages(&apos;package name&apos;)
 </code></pre></li>
 </ul>
 <h3 id="&#x5B89;&#x88C5;&#x3001;&#x5347;&#x7EA7;&#x5DE5;&#x5177;&#x5305;">&#x5B89;&#x88C5;&#x3001;&#x5347;&#x7EA7;&#x5DE5;&#x5177;&#x5305;</h3>
@@ -580,14 +580,11 @@ pkgs[is.na(pkgs[,&quot;Priority&quot;]), c(&quot;Package&quot;, &quot;Version&qu
 <li><p>R Kernel</p>
 <pre><code>install.packages(package_name) #&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x5305;&#x3002;
 </code></pre></li>
-<li><p>&#x53CB;&#x60C5;&#x63D0;&#x793A;&#xFF1A;</p>
-<ul>
-<li>&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x597D;&#x5DE5;&#x5177;&#x5305;&#x540E;&#xFF0C;&#x8BF7;&#x5237;&#x65B0;&#x9875;&#x9762;&#xFF0C;&#x5237;&#x65B0;&#x540E;Kernel&#x5C06;&#x5B8C;&#x6210;&#x5DE5;&#x5177;&#x5305;&#x7684;&#x66F4;&#x65B0;&#x90E8;&#x7F72;&#x3002;</li>
-<li>&#x7528;&#x6237;&#x81EA;&#x884C;&#x5B89;&#x88C5;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x4E0D;&#x80FD;&#x88AB;&#x6301;&#x4E45;&#x5316;&#xFF0C;&#x6709;&#x6301;&#x4E45;&#x5316;&#x9700;&#x6C42;&#x7684;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;<a href="https://www.kesci.com/apps/home/workspace/help" target="_blank">&#x5E2E;&#x52A9;&#x4E2D;&#x5FC3;</a>&#x4E0B;&#x7684;&#x610F;&#x89C1;&#x53CD;&#x9988;&#x5411;&#x79D1;&#x8D5B;&#x7F51;&#x63D0;&#x51FA;&#x5DE5;&#x5177;&#x5305;&#x5B89;&#x88C5;&#x9700;&#x6C42;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5728;2&#x4E2A;&#x5DE5;&#x4F5C;&#x65E5;&#x5185;&#x7ED9;&#x51FA;&#x7B54;&#x590D;&#x3002;</li>
 </ul>
-</li>
-</ul>
-
+<p><strong>&#x53CB;&#x60C5;&#x63D0;&#x793A;</strong>&#xFF1A;</p>
+<pre><code>* &#x624B;&#x52A8;&#x5B89;&#x88C5;&#x597D;&#x5DE5;&#x5177;&#x5305;&#x540E;&#xFF0C;&#x8BF7;&#x5237;&#x65B0;&#x9875;&#x9762;&#xFF0C;&#x5237;&#x65B0;&#x540E;Kernel&#x5C06;&#x5B8C;&#x6210;&#x5DE5;&#x5177;&#x5305;&#x7684;&#x66F4;&#x65B0;&#x90E8;&#x7F72;&#x3002;
+* &#x7528;&#x6237;&#x81EA;&#x884C;&#x5B89;&#x88C5;&#x7684;&#x5DE5;&#x5177;&#x5305;&#x4E0D;&#x80FD;&#x88AB;&#x6301;&#x4E45;&#x5316;&#xFF0C;&#x6709;&#x6301;&#x4E45;&#x5316;&#x9700;&#x6C42;&#x7684;&#x5DE5;&#x5177;&#x5305;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;[&#x5E2E;&#x52A9;&#x4E2D;&#x5FC3;](https://www.kesci.com/apps/home/workspace/help)&#x4E0B;&#x7684;&#x610F;&#x89C1;&#x53CD;&#x9988;&#x5411;&#x79D1;&#x8D5B;&#x7F51;&#x63D0;&#x51FA;&#x5DE5;&#x5177;&#x5305;&#x5B89;&#x88C5;&#x9700;&#x6C42;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5728;2&#x4E2A;&#x5DE5;&#x4F5C;&#x65E5;&#x5185;&#x7ED9;&#x51FA;&#x7B54;&#x590D;&#x3002;
+</code></pre>
                                 
                                 </section>
                             
@@ -630,7 +627,7 @@ pkgs[is.na(pkgs[,&quot;Priority&quot;]), c(&quot;Package&quot;, &quot;Version&qu
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Kernel内置工具包","level":"1.3.2","depth":2,"next":{"title":"Kernel计算资源","level":"1.3.3","depth":2,"path":"ch2/kernel_computing_source.md","ref":"ch2/kernel_computing_source.md","articles":[]},"previous":{"title":"Kernel类型","level":"1.3.1","depth":2,"path":"ch2/kernel_type.md","ref":"ch2/kernel_type.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/kernel_pkg.md","mtime":"2018-04-11T02:56:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-10T15:01:21.939Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Kernel内置工具包","level":"1.3.2","depth":2,"next":{"title":"Kernel计算资源","level":"1.3.3","depth":2,"path":"ch2/kernel_computing_source.md","ref":"ch2/kernel_computing_source.md","articles":[]},"previous":{"title":"Kernel类型","level":"1.3.1","depth":2,"path":"ch2/kernel_type.md","ref":"ch2/kernel_type.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch2/kernel_pkg.md","mtime":"2018-04-11T03:06:25.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-10T15:01:21.939Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

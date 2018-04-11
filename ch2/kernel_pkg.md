@@ -8,16 +8,12 @@ K-Lab Kernel支持用户在与Kernel相连的Notebook中输入指令查看、安
 * Python3 Kernel
 ```
 !pip list --format=columns  #查看Kernel下所有预置的工具包
-```
-```
 !pip show package_name      #查看Kernel是否有某个工具包
 ```
 
 * Python2 Kernel    
 ```
 !pip2 list --format=columns  #查看Kernel下所有预置的工具包
-```
-```
 !pip2 show package_name      #查看Kernel是否有某个工具包
 ```
 
@@ -25,8 +21,6 @@ K-Lab Kernel支持用户在与Kernel相连的Notebook中输入指令查看、安
 ```
 pkgs <- installed.packages();
 pkgs[is.na(pkgs[,"Priority"]), c("Package", "Version")]
-```
-```
 installed.packages('package name')
 ```
 
@@ -48,6 +42,6 @@ installed.packages('package name')
 install.packages(package_name) #安装工具包。
 ```
 
-* 友情提示：
+**友情提示**：
     * 手动安装好工具包后，请刷新页面，刷新后Kernel将完成工具包的更新部署。
     * 用户自行安装的工具包不能被持久化，有持久化需求的工具包，可通过[帮助中心](https://www.kesci.com/apps/home/workspace/help)下的意见反馈向科赛网提出工具包安装需求，我们将在2个工作日内给出答复。
