@@ -34,23 +34,18 @@ installed.packages('package name')
 用户可在Notebook的Code Cell中键入相应bash指令安装、更新所需要的工具包
 * Python3 Kernel
 ```
-!pip install package_name==version #安装python3环境的工具包。不注明version则自动安装最新版本
-```
-```
-!pip install package_name --upgrade #更新python3环境的工具包。
+!pip install package_name==version #安装工具包
+!pip install package_name --upgrade #更新工具包
 ```
 * Python2 Kernel
 ```
-!pip2 install package_name==version #安装python2环境的工具包。如果不注明version则自动安装最新版本
+!pip2 install package_name==version #安装工具包
+!pip2 install package_name --upgrade #更新工具包
 ```
-```
-!pip2 install package_name --upgrade #更新python2环境的工具包。
-```
-
 
 * R Kernel
 ```
-install.packages(package_name) #安装R环境的工具包。
+install.packages(package_name) #安装工具包。
 ```
 
 * 友情提示：
