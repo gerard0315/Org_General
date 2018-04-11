@@ -25,5 +25,5 @@
     * [管理项目](ch5/manage_lab.md)
     * [Fork项目](ch5/fork_lab.md)
 * [账户管理](ch6/chapter6.md)
-* [K-Lab快捷键](ch7/chapter6.md)
+* [K-Lab快捷键](ch7/chapter7.md)
 
