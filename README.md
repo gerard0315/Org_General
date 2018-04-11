@@ -6,7 +6,7 @@ K-Lab是一款在线数据分析协作工具，通过在云端为用户管理所
 
 K-Lab针对组织内部的数据分析协作场景提供了K-Lab组织版产品形态，解决多用户场景下的管理难题与协作难题。
 
-![image description](image/overview.png) 
+![image description](/image/overview.png) 
 
 在K-Lab组织版内，我们为你提供：
 
