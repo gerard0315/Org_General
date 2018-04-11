@@ -18,7 +18,6 @@
 * [数据集](ch4/chapter4.md)
     * [创建数据集](ch4/create_dataset.md)
     * [挂载数据集](ch4/upload_dataset.md)
-    * [数据集权限](ch4/authority_dataset.md)
     * [管理数据集](ch4/manage_dataset.md)
 * [数据分析项目](ch5/chapter5.md)
     * [创建项目](ch5/create_lab.md)
