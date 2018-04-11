@@ -1,5 +1,8 @@
-# 命令模式
+# K-Lab快捷键
 
+K-Lab内支持原生Jupyter Notebook的快捷键。快捷键分为命令模式，编辑模式和全局模式三种。
+
+## 命令模式
 当前cell显示灰色边框，并且左边有蓝条标识。
 ![image description](/image/code-cell.png)
 * `X`：剪切选中cell
@@ -29,3 +32,17 @@
 * `Esc`：清除选择的cell
 * `H`：打开快捷键帮助
 * `0`,`0`：重启kernel
+
+## 编辑模式
+当前cell显示为绿色边框，可以输入代码或是文本。
+ ![image description](/image/code-cell-green.png)
+* `Ctrl`+`/`：注释代码
+* `Delete`：撤销自动补全
+* `Ctrl`+`Shift`+`-`：分离当前cell
+* `Esc`：进入命令模式
+
+## 全局模式
+这些快捷键全局可用。
+
+* `Ctrl`+`S`: 保存文件
+* `Ctrl`+`Enter`: 运行

@@ -24,8 +24,6 @@
     * [运行项目](ch5/run_lab.md)
     * [管理项目](ch5/manage_lab.md)
     * [Fork项目](ch5/fork_lab.md)
-* [K-Lab快捷键](ch6/chapter6.md)
-    * [编辑模式](ch6/edit_mode.md)
-    * [命令模式](ch6/command_mode.md)
-    * [全局快捷键](ch6/global_shortcuts.md)
+* [账户管理](ch6/chapter6.md)
+* [K-Lab快捷键](ch7/chapter6.md)
 
