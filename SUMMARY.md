@@ -27,3 +27,6 @@
 * [账户管理](ch6/chapter6.md)
 * [K-Lab快捷键](ch7/chapter7.md)
 * [K-Lab工具包](ch8/chapter8.md)
+   * [Python2](ch8/py2.md)
+   * [Python3](ch8/py3.md)
+   * [R](ch8/r.md)
