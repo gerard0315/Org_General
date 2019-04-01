@@ -24,5 +24,4 @@
 
 Fork成功后，就可以在自己的环境中看到对应的项目，点击运行即可启动K-Lab进行实战训练。
 
-![image description](/image/check_forkedproject.png)
-
+![image description](/image/check_forked_project.png)
