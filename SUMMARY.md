@@ -23,6 +23,7 @@
     * [创建项目](ch5/create_lab.md)
     * [运行项目](ch5/run_lab.md)
     * [管理项目](ch5/manage_lab.md)
+    * [项目输出](ch5/output_file.md)
     * [Fork项目](ch5/fork_lab.md)
 * [自选模块](ch9/chapter9.md)
    * [作业管理](ch9/assignment.md)
