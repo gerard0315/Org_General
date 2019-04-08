@@ -10,7 +10,7 @@ K-Lab针对组织内部的数据分析协作场景提供了K-Lab组织版产品�
 
 在K-Lab组织版内，我们为你提供：
 
-* 在浏览器内可交互的[Notebook(编程环境)](ch1/chapter1.md)
+* 在浏览器内可交互的[Notebook(编程环境)](ch0/chapter1.md)
 * 强健稳定的[Kernel(计算环境)](ch2/chapter2.md)
 * 个人独享的[磁盘空间](ch3/chapter3.md)
 * 丰富便捷的[数据集](ch4/chapter4.md)
